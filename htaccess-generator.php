@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>MD5 Generator SEO Tool</title>
+    <title>.htaccess GENERATOR SEO Tool</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="MD5, generator, hash value, cryptographic hash function, data integrity, security, verification, password, file checksum, SEO" name="keywords">
-    <meta content="Our MD5 Generator SEO Tool is a powerful tool used to generate MD5 hash values for various types of data. Use this tool to verify the integrity of your passwords, file checksums, and other types of data to improve the security and reliability of your website's data. Improve your website's SEO performance by using our MD5 Generator SEO Tool today." name="description">
+    <meta content=" .htaccess generator, SEO tool, website security, website optimization, website performance" name="keywords">
+    <meta content="Use our .htaccess generator SEO tool to create a custom .htaccess file for your website. Improve your website's security, performance, and SEO by implementing redirects, blocking access to specific files or directories, and more." name="description">
 
     <!-- Favicon -->
     <link href="img/logo.png" rel="icon">
@@ -30,13 +30,30 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link rel="canonical" href="https://techbanda.com/tools/md5-generator">
     <style>
         td.copy i {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+img.barcode {
+    border: 1px solid #ccc;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+.showQRCode {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	margin-top:35px;
+}
+.form-label {
+    margin-bottom: 0.5rem;
+}
+labels {
+    display: flex;
 }
 .section-titles::after {
     position: absolute;
@@ -99,7 +116,7 @@
                         <div class="col-12">
                             <br>
                             <br>
-                            <h2 class="text-white animated zoomIn text-center">MD5 Generator Tool</h2>
+                            <h2 class="text-white animated zoomIn text-center">.htaccess Generator Tool</h2>
                         </div>
                     </div>
                 </div>
@@ -126,77 +143,43 @@
         </div>
         <!-- Full Screen Search End -->
 
-<section class="">
+        <section class="">
   <!-- Jumbotron -->
   <div class="px-4 py-5 px-md-5 text-center text-lg-start mx-auto" style="background-color: hsl(0, 0%, 96%) background: rgba(29, 29, 39, 0.7)">
     <div class="container">
       <div class="row gx-lg-5 align-items-center">
         <div class="col-lg-12 mb-5 mb-lg-0">
           <div class="card">
-            <div class="card-body py-5 px-md-5">
-              <form action="md5-generator.php" method="post">
-  <div class="form-group row">
-    <!-- <label for="inputText" class="col-sm-2 col-form-label">Generate Password</label> -->
-    <div class="col-sm-8">
-      <input type="text" class="form-control form-control-lg" name="twcard" placeholder="Paste Your Text Here" />
-    </div>
-    <div class="col-sm-2">
-      <button type="submit" class="btn btn-primary btn-lg" name="generate_password">Generate</button>
-    </div>
-  </div>
-</form>
-<?php
-if(isset($_POST['generate_password'])) {
-  $sitemap= $_POST['twcard'];
-
-  // Generate hash codes
-  $md5 = md5($sitemap);
-  $sha1 = sha1($sitemap);
-  $base64 = base64_encode($sitemap);
-?>
-<br>
-<br>
-<script>
-  function copyToClipboard(text) {
-    var input = document.createElement("textarea");
-    input.style.position = 'fixed';
-    input.style.opacity = 0;
-    input.value = text;
-    document.body.appendChild(input);
-    input.select();
-    document.execCommand('Copy');
-    document.body.removeChild(input);
-  }
-</script>
-<!-- Output the table -->
-<table class="mx-auto" style="border: 1px solid black; padding: 5px;">
-  <tbody>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px;">Original Text</td>
-      <td style="border: 1px solid black; padding: 5px;"><?php echo $sitemap; ?></td>
-      <td class = "copy" style="border: 1px solid black; padding: 5px;"><a href="md5-generator.php" onclick="copyToClipboard('<?php echo $sitemap; ?>')"><i class="fas fa-copy fa-2x"></i></a></td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px;">MD5</td>
-      <td style="border: 1px solid black; padding: 5px;"><?php echo $md5; ?></td>
-      <td class = "copy" style="border: 1px solid black; padding: 5px;"><a href="md5-generator.php" onclick="copyToClipboard('<?php echo $sitemap; ?>')"><i class="fas fa-copy fa-2x"></i></a></td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px;">SHA1</td>
-      <td style="border: 1px solid black; padding: 5px;"><?php echo $sha1; ?></td>
-      <td class = "copy" style="border: 1px solid black; padding: 5px;"><a href="md5-generator.php" onclick="copyToClipboard('<?php echo $sitemap; ?>')"><i class="fas fa-copy fa-2x"></i></a></td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px;">Base64</td>
-      <td style="border: 1px solid black; padding: 5px;"><?php echo $base64; ?></td>
-      <td class = "copy" style="border: 1px solid black; padding: 5px;"><a href="md5-generator.php" onclick="copyToClipboard('<?php echo $sitemap; ?>')"><i class="fas fa-copy fa-2x"></i></a></td>
-    </tr>
-  </tbody>
-</table>
-<?php
-}
-?>
-
+            <div class="card-body py-5 px-md-5 text-center">
+                    <div class="container">		
+                        <div class="row gx-lg-5 align-items-center ">
+                            <div class="col-lg-12 mb-5 mb-lg-0" id="qrForm">
+                            <form class="form-horizontal" method="post" id="codeForm" onsubmit="return false">
+                            <div class="form-group">
+                                <labels class="control-label text-left">URL:</labels>
+                                <input class="form-control col-xs-1" id="content" type="text" required="required">
+                            </div>
+                        </form>
+                        <br>
+                        <br>
+                        <form method="post" action="" id="optionsForm">
+                            <input type="radio" name="option" value="qr" checked> Redirect from www to non-www
+                            <span style="margin-left: 20px;"></span>
+                            <input type="radio" name="option" value="barcode"> Redirect from non-www to www
+                        </form>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-primary" id = "submitButton" onclick="generateNewUrl()">Generate htaccess</button>
+                        <br>
+                        <br>
+                        <div class="form-group" id="result"style="display: none;">
+                            <label class="control-label">.htaccess :</label>
+                            <textarea class="form-control" rows="5" id="newUrl" readonly style="resize: none;"></textarea>
+                        </div>
+                            </div>	
+                        </div>
+                    </div>
+                </div>	
             </div>
           </div>
         </div>
@@ -208,16 +191,58 @@ if(isset($_POST['generate_password'])) {
 
 <hr class="hr1">
     <div class="container">
-            <div class="section-titles text-left">
-                 <h2 class="text-center">MD5 Generator SEO Tool</h2>
-                 <h2>What is MD5 Generator ?</h2>
-                <p>An MD5 Generator SEO Tool is a tool used to generate MD5 hash values for text input. MD5 is a cryptographic hash function that is commonly used to verify the integrity of data, such as passwords or digital signatures.</p>
-                <h2>What is the use of MD5 Generator ?</h2>
-                <p>The MD5 Generator SEO Tool can be used by website owners, developers, and digital marketers to generate MD5 hash values for passwords, file checksums, and other types of data that require data integrity verification.</p>
-                <p>By using an MD5 Generator SEO Tool, website owners and developers can improve the security and reliability of their website's data, which can help to build trust with users and improve the website's overall SEO performance.</p>
+            <div class="section-titles text-left" style="background-color: hsl(0, 0%, 96%) background: rgba(29, 29, 39, 0.7)">
+                 <h2 class="text-center">.htaccess GENERATOR SEO Tool</h2>
+                 <h2>.htaccess GENERATOR SEO Tool</h2>
+                <p>Use our .htaccess generator SEO tool to easily create and customize the .htaccess file for your website. This tool helps you configure important settings and improve your website's security, performance, and SEO.</p>
+                <p>The .htaccess GENERATOR SEO Tool is a tool used by website owners and developers to create and modify the .htaccess file for their website. The .htaccess file is a configuration file used by the Apache web server to control various aspects of website functionality, including URL rewriting, access control, and caching.</p>
+                <p>Using the .htaccess GENERATOR SEO Tool, you can easily generate and customize the .htaccess file without having to manually edit it. This tool allows you to configure important settings such as redirect rules, error pages, caching, and security measures, which can help improve your website's performance, security, and SEO.</p>
             </div>
     </div>
 
 <?php include('footer.php');?>
+<script>
+    // Get references to relevant elements
+const codeForm = document.getElementById("codeForm");
+const optionsForm = document.getElementById("optionsForm");
+const contentInput = document.getElementById("content");
+const newUrlTextarea = document.getElementById("newUrl");
+const submitButton = document.getElementById("submitButton");
+
+// Attach event listener to submit button
+submitButton.addEventListener("click", function() {
+  // Get content of input field
+  const content = contentInput.value;
+  
+  // Extract domain name
+  let domain = content.replace(/^(https?:\/\/)?(www\.)?/i, '');
+  
+  // Remove trailing slash if present
+  if (domain.slice(-1) === '/') {
+    domain = domain.slice(0, -1);
+  }
+  
+  // Check selected option
+  const selectedOption = optionsForm.querySelector("input[name='option']:checked").value;
+  
+  // Generate new URL based on selected option
+  let newUrl;
+  let redirectCode;
+  if (selectedOption === "qr") {
+    newUrl = "http://www." + domain + "/";
+    // Redirect code for QR
+    redirectCode = "RewriteEngine On\nRewriteCond %{HTTP_HOST} ^" + domain + " [NC]\nRewriteRule ^(.*)$ http://www." + domain + "/$1 [L,R=301]";
+  } else if (selectedOption === "barcode") {
+    newUrl = "http://" + domain + "/";
+    // Redirect code for barcode
+    redirectCode = "RewriteEngine On\nRewriteCond %{HTTP_HOST} ^www." + domain + " [NC]\nRewriteRule ^(.*)$ http://" + domain + "/$1 [L,R=301]";
+  }
+  
+  // Display new URL in textarea
+  newUrlTextarea.value = redirectCode;
+  const htaccessDiv = document.getElementById("result");
+  htaccessDiv.style.display = "flex";
+});
+    </script>
 </body>
 </html>

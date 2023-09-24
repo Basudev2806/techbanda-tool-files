@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="canonical" href="https://techbanda.com/tools/privacypolicy">
 </head>
 
 <body>

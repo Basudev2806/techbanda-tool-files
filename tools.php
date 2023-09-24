@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="canonical" href="https://techbanda.com/tools/tools">
 </head>
 
 <body>
@@ -154,7 +155,7 @@
                             </div>
                             <h5 class="mb-3">Twitter Card Generator</h5>
                             <p>Twitter Cards are a type of meta tag that allow website owners to attach rich media experiences to tweets that link to their content.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="witter-card-generator.php">Use</a>
+                            <a class="btn px-3 mt-auto mx-auto" href="twitter-card-generator.php">Use</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -163,7 +164,7 @@
                                 <i class="fas fa-passport fa-3x"></i>
                             </div>
                             <h5 class="mb-3">Password Generator</h5>
-                            <p>A password generator is a tool that creates a random string of characters that can be used as a password. It can be used to generate new passwords for online accounts, or to create a set of random passwords to use for various purposes.</p>
+                            <p>A password generator is a tool that creates a random string of characters that can be used as a password.</p>
                             <a class="btn px-3 mt-auto mx-auto" href="random-password-generator.php">Use</a>
                         </div>
                     </div>
@@ -203,7 +204,7 @@
                             <i class="fas fa-qrcode fa-2x"></i>
                             </div>
                             <h5 class="mb-3">QRCode & BARCODE Generator</h5>
-                            <p>QRCode & BARCODE generator enables you to create QRCode & BARCODE by encoding textual data and URLs. No special skills are needed to make a custom QRCode & BARCODE while using this advanced online facility.</p>
+                            <p>QRCode & BARCODE generator enables you to create QRCode & BARCODE by encoding textual data and URLs.</p>
                             <a class="btn px-3 mt-auto mx-auto" href="qrcode-barcode.php">Use</a>
                         </div>
                     </div>
@@ -214,7 +215,67 @@
                             </div>
                             <h5 class="mb-3">Text to Image Generator</h5>
                             <p>Text to Image generator enables you to create Image by encoding textual data. No special skills are needed to make a custom Image while using this advanced online facility.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="qrcode-barcode.php">Use</a>
+                            <a class="btn px-3 mt-auto mx-auto" href="text-to-image.php">Use</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                            <i class="fas fa-route fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">.htaccess Generator</h5>
+                            <p>The .htaccess Generator is a web-based tool used to generate the .htaccess file for generating URL rewriting, access control, and redirects.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="htaccess-generator.php">Use</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                            <i class="fas fa-lock fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">SSL Checker</h5>
+                            <p>The SSL Checker is a web-based tool used to check the SSL certificate of a website and verify whether it is secured with HTTPS or not.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="ssl-info.php">Use</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                            <i class="fa fa-gavel fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Privacy Policy Generator</h5>
+                            <p>The Privacy Policy Generator Tool is a valuable resource for website owners and businesses seeking to create a privacy policy without the need for legal expertise. </p>
+                            <a class="btn px-3 mt-auto mx-auto" href="free-privacy-policy-generator.php">Use</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                            <i class="fa fa-book fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Terms &amp; Conditions Generator</h5>
+                            <p>The Free Terms and Conditions Generator Tool is a valuable resource for website owners and businesses looking to create legally compliant terms and conditions for their websites or mobile applications. </p>
+                            <a class="btn px-3 mt-auto mx-auto" href="free-terms-and-conditions-generator.php">Use</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                            <i class="fas fa-file-alt fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Disclaimer Generator</h5>
+                            <p>The Free Disclaimer Generator Tool is a helpful resource for website owners and businesses seeking to create accurate and legally compliant disclaimers for their websites or mobile applications.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="free-disclaimer-generator.php">Use</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                            <i class="fas fa-server fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Domain Nameserver Lookup</h5>
+                            <p>Domain Nameserver Lookup Tool is a valuable resource for website owners and developers to inspect and retrieve crucial DNS information about any domain.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="domain-nameserver-lookup.php">Use</a>
                         </div>
                     </div>
                 </div>

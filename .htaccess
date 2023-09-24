@@ -1,7 +1,7 @@
 RewriteEngine On
 
 # Redirect to https://monesta.live on 401 error
-ErrorDocument 401 https://monesta.live
+ErrorDocument 401 https://techbanda.com/404.php
 
 # Cache images and other data for one hour
 <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">

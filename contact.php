@@ -31,6 +31,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="canonical" href="https://techbanda.com/tools/contact">
 </head>
 
 <body>
@@ -48,7 +49,7 @@
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="./" class="navbar-brand p-0">
-                    <h1 class="m-0"><i class="fa fa-search me-2"></i>SEO<span class="fs-5">Tools</span></h1>
+                    <h1 class="m-0"><i class="fa fa-search me-2"></i>Tech <span class="fs-5">Tools</span></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -56,7 +57,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                    <a href="./" class="nav-item nav-link active">Home</a>
+                    <a href="./" class="nav-item nav-link">Home</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tools</a>
                             <div class="dropdown-menu m-0">
@@ -64,7 +65,7 @@
                                 <a href="dev-tools.php" class="dropdown-item">Developer Tools</a>
                             </div>
                         </div>
-                        <a href="contact.php" class="nav-item nav-link">Contact</a>
+                        <a href="contact.php" class="nav-item nav-link active">Contact</a>
                     </div>
                     <!-- <butaton type="button" class="btn text-secondary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
                     <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3">Pro Version</a> -->
@@ -221,11 +222,11 @@ if (!empty($_POST)) {
        $errors[] = 'Message is empty';
    }
 }
-<?php
 if (!empty($errors)) {
    $allErrors = join('<br/>', $errors);
    $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
 }
+?>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

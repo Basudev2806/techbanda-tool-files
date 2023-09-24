@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="canonical" href="https://techbanda.com/tools/meta-description-checker">
     <style>
         body {
     min-height: 100%;
@@ -485,7 +486,7 @@ label {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                    <a href="./" class="nav-item nav-link active">Home</a>
+                    <a href="./" class="nav-item nav-link">Home</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tools</a>
                             <div class="dropdown-menu m-0">
@@ -555,7 +556,7 @@ label {
 
                 <!-- Email input -->
                 <div class="form-outline mb-4">
-                    <input type="text" class="form-control form-control-lg" name="link" placeholder="https://monesta.live" />
+                    <input type="text" class="form-control form-control-lg" name="link" placeholder="https://techbanda.com/" />
                   <label class="form-label" for="form3Example3">Meta Link</label>
                 </div>
 
@@ -580,7 +581,7 @@ label {
         <!--<div id="topbar">-->
             <img id="searchbarimage" src="img/googlelogo_color_92x30dp.png" />
             <div id="searchbar" type="text">
-                <input id="searchbartext" type="text" value="Monesta" />
+                <input id="searchbartext" type="text" value="Tech Banda" />
                 <button id="searchbarmic">
                 </button>
                 <button id="searchbarbutton">
@@ -606,9 +607,9 @@ label {
         <div class="result-content" style="text-align: left;" >
             <p id="searchresultsnumber">About 155,000 results (0.56 seconds) </p>
             <?php 
-            $image_url = 'https://monesta.live/favicon.ico';
-            $link = 'https://monesta.live';
-            $title= 'Your SEO Title | SEO TITLE here';
+            $image_url = 'https://techbanda.com/assets/img/favicon.ico';
+            $link = 'https://techbanda.com';
+            $title= 'Tech Banda';
             $des='Meta length 160 words, snippet tool... we have it all! An awesome description will help boost your CTR and make you stand out in the search results! Try it today';
             if(isset($_POST['title']) && isset($_POST['link']) && isset($_POST['des']) && isset($_POST['image']))
                {
@@ -623,6 +624,7 @@ label {
             <a style="color:black">
             <img src="<?php echo $image_url ?>" style="height:32px;width:32px" alt="Image description">
             <span style="font-weight:bold;color:black;"><?php echo $title ?></span>
+            <br>
             <?php echo $link ?>
             </a>
             <h2><?php echo $title ?></h2>

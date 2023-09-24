@@ -27,6 +27,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="canonical" href="https://techbanda.com/tools/open-graph-tag-generator">
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -46,6 +47,23 @@ label {
     word-wrap: break-word;
     background-color: #fff;
     border-radius: 10px;
+}
+.section-titles::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: 50px;
+}
+
+.section-titles::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: 50px;
 }
         </style>
 </head>
@@ -72,7 +90,7 @@ label {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                    <a href="./" class="nav-item nav-link active">Home</a>
+                    <a href="./" class="nav-item nav-link">Home</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tools</a>
                             <div class="dropdown-menu m-0">
@@ -225,7 +243,7 @@ label {
 </section>
 <hr class="hr1">
     <div class="container">
-            <div class="section-title text-left">
+            <div class="section-titles text-left">
                  <h2 class="text-center">Open Graph Tag Generator SEO Tool</h2>
                  <h2>What is an Open Graph Tag Generator SEO Tool?</h2>
                     <p>An Open Graph Tag Generator SEO Tool is a tool that website owners and digital marketers can use to optimize their website's content for social media sharing. Open Graph tags are snippets of HTML code that provide information about a web page's content when it is shared on social media platforms such as Facebook, Twitter, and LinkedIn.</p>

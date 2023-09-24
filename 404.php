@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="canonical" href="https://techbanda.com/tools/404">
 </head>
 
 <body>
@@ -47,7 +48,7 @@
         <div class="container-xxl position-relative p-0">
 <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="./" class="navbar-brand p-0">
-                    <h1 class="m-0"><i class="fa fa-search me-2"></i>SEO<span class="fs-5">Tools</span></h1>
+                    <h1 class="m-0"><i class="fa fa-search me-2"></i>Tech <span class="fs-5">Tools</span></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -55,7 +56,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                    <a href="./" class="nav-item nav-link active">Home</a>
+                    <a href="./" class="nav-item nav-link">Home</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tools</a>
                             <div class="dropdown-menu m-0">
@@ -112,7 +113,7 @@
                         <h1 class="display-1">404</h1>
                         <h1 class="mb-4">Page Not Found</h1>
                         <p class="mb-4">We’re sorry, the page you have looked for does not exist in our website! Maybe go to our home page or try to use a search?</p>
-                        <a class="btn btn-primary rounded-pill py-3 px-5" href="">Go Back To Home</a>
+                        <a class="btn btn-primary rounded-pill py-3 px-5" href="https://techbanda.com/tools/">Go Back To Home</a>
                     </div>
                 </div>
             </div>

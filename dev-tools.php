@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="canonical" href="https://techbanda.com/tools/dev-tools">
 </head>
 
 <body>
@@ -47,7 +48,7 @@
         <div class="container-xxl position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="./" class="navbar-brand p-0">
-                    <h1 class="m-0"><i class="fa fa-search me-2"></i>SEO<span class="fs-5">Tools</span></h1>
+                    <h1 class="m-0"><i class="fa fa-search me-2"></i>DEV<span class="fs-5">Tools</span></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -114,7 +115,7 @@
                                 <h5 class="mb-3">Online Web Editor</h5>
                                 <p> With this online code editor, you can edit HTML, CSS and JavaScript code, and live preview of site instantly. Online markdown editor, with custom toolbar to help you make your readme easily.
                                 </p>
-                                <a class="btn px-3 mt-auto mx-auto" href="https://web.monesta.live">Use</a>
+                                <a class="btn px-3 mt-auto mx-auto" href="https://editor.techbanda.com">Use</a>
                             </div>
                         </div>
                 </div>

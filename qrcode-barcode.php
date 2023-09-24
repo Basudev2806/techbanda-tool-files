@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="canonical" href="https://techbanda.com/tools/qrcode-barcode">
     <style>
         td.copy i {
   display: flex;
@@ -54,6 +55,23 @@ img.barcode {
 }
 label {
     display: flex;
+}
+.section-titles::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: 50px;
+}
+
+.section-titles::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: 50px;
 }
         </style>
 </head>
@@ -80,7 +98,7 @@ label {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                    <a href="./" class="nav-item nav-link active">Home</a>
+                    <a href="./" class="nav-item nav-link">Home</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tools</a>
                             <div class="dropdown-menu m-0">
@@ -250,7 +268,7 @@ label {
 
 <hr class="hr1">
     <div class="container">
-            <div class="section-title text-left">
+            <div class="section-titles text-left">
                  <h2 class="text-center">QRCode & BARCODE GENERATOR SEO Tool</h2>
                  <h2>What is a QR Code & Barcode Generator SEO Tool?</h2>
                 <p>A QR Code & Barcode Generator SEO Tool is a tool used by website owners and digital marketers to generate QR codes and barcodes for their websites. These codes can be used to provide additional information about a product or service, or to link to a specific webpage or online resource.</p>

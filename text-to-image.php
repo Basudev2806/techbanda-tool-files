@@ -30,6 +30,26 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="canonical" href="https://techbanda.com/tools/text-to-image">
+    <style>
+        .section-titles::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: 50px;
+}
+
+.section-titles::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: 50px;
+}
+        </style>
 </head>
 
 <body>
@@ -54,7 +74,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                    <a href="./" class="nav-item nav-link active">Home</a>
+                    <a href="./" class="nav-item nav-link">Home</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tools</a>
                             <div class="dropdown-menu m-0">
@@ -189,7 +209,7 @@
 </section>
 <hr class="hr1">
     <div class="container">
-            <div class="section-title text-left">
+            <div class="section-titles text-left">
                  <h2 class="text-center">Text to Image Generator SEO Tool</h2>
                  <h2>Text to Image Generator SEO Tool</h2>
                 <p>Text to Image Generator SEO Tool is an online tool used to convert plain text into an image file. The tool allows website owners and digital marketers to optimize their visual content for SEO purposes by incorporating relevant keywords into the text and customizing the image to fit their brand.</p>

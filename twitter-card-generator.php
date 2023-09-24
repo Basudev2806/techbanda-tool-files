@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="canonical" href="https://techbanda.com/tools/twitter-card-generator">
     <style>
               .form-label {
     margin-bottom: 0.5rem;
@@ -46,6 +47,23 @@ label {
     word-wrap: break-word;
     background-color: #fff;
     border-radius: 10px;
+}
+.section-titles::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: 50px;
+}
+
+.section-titles::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: 50px;
 }
         </style>
 </head>
@@ -216,7 +234,7 @@ label {
 </section>
 <hr class="hr1">
     <div class="container">
-            <div class="section-title text-left">
+            <div class="section-titles text-left">
                  <h2 class="text-center">Twitter Card Generator SEO Tool</h2>
                  <h2>What is Twitter Card Generator SEO Tool?</h2>
                 <p>Twitter Card Generator SEO Tool is a tool used to create and optimize Twitter Cards for websites. Twitter Cards are a type of meta tag that allows website owners to customize how their website's content appears on Twitter. By using Twitter Cards, website owners can improve the visibility and engagement of their website's content on social media. </p>

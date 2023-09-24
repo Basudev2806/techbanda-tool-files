@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="canonical" href="https://techbanda.com/tools/robots-txt">
 
     <style>
 #robots-txt-form .fs18{font-size: 18px;}
@@ -128,7 +129,23 @@ a {
     text-decoration: none;
     background-color: transparent;
 }
+.section-titles::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: 50px;
+}
 
+.section-titles::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: 50px;
+}
         </style>
 
 </head>
@@ -155,7 +172,7 @@ a {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                    <a href="./" class="nav-item nav-link active">Home</a>
+                    <a href="./" class="nav-item nav-link">Home</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tools</a>
                             <div class="dropdown-menu m-0">
@@ -368,7 +385,7 @@ a {
   <!-- </section>   -->
   <hr class="hr1">
     <div class="container">
-            <div class="section-title text-left">
+            <div class="section-titles text-left">
                  <h2 class="text-center">Robot Txt Generator SEO Tool</h2>
                  <h2>Robot Txt Generator SEO Tool</h2>
                 <p>Use our Robot Txt Generator SEO Tool to create and edit the robot.txt file for your website. This file instructs search engine crawlers on how to access and index your website's pages, helping to improve your website's search engine optimization (SEO) and overall visibility.</p>

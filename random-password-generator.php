@@ -30,6 +30,27 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="canonical" href="https://techbanda.com/tools/random-password-generator">
+    <style>
+        .section-titles::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: 50px;
+}
+
+.section-titles::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: 50px;
+}
+        </style>
+            <link rel="canonical" href="https://techbanda.com/tools/random-password-generator.php"/>
 </head>
 
 <body>
@@ -54,7 +75,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                    <a href="./" class="nav-item nav-link active">Home</a>
+                    <a href="./" class="nav-item nav-link">Home</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tools</a>
                             <div class="dropdown-menu m-0">
@@ -119,20 +140,20 @@
                             </div>
                         </div>
                     </form>
-        <?php
-                if(isset($_POST['generate_password'])) {
-                  $length = 20; 
-                  $password = substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_{}[]@!%^()*/-+."), 0, $length); // generate random password
-                  $qr_code = 'https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=' . $password; // generate QR code URL
-
-                  // Set the generated password as the value of the 'twcard' input field
-                  echo '<script>document.getElementsByName("twcard")[0].value = "'.$password.'";</script>';
-                echo '<br>';
-                  echo '<div style="display: flex; justify-content: center; align-items: center;">
-  <img src="'.$qr_code.'" alt="QR code">
-</div>';
-                }
-                ?>
+                        <?php
+                        if(isset($_POST['generate_password'])) {
+                          $length = 20; 
+                          $password = substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_{}[]@!%^()*/-+."), 0, $length); // generate random password
+                          $qr_code = 'https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=' . $password; // generate QR code URL
+                        
+                          // Set the generated password as the value of the 'twcard' input field
+                          echo '<script>document.getElementsByName("twcard")[0].value = "'.$password.'";</script>';
+                          echo '<br>';
+                          echo '<div style="display: flex; justify-content: center; align-items: center;">
+                            <img src="'.$qr_code.'" alt="QR code">
+                          </div>';
+                        }
+                        ?>
             </div>
           </div>
         </div>
@@ -143,7 +164,7 @@
 </section>
 <hr class="hr1">
     <div class="container">
-            <div class="section-title text-left">
+            <div class="section-titles text-left">
                  <h2 class="text-center">Random Password Generator SEO Tool</h2>
                  <h2>Random Password Generator SEO Tool</h2>
                 <p>Our Random Password Generator SEO Tool is a simple yet effective tool for creating strong and secure passwords for your online accounts. By using our tool, you can generate a random combination of letters, numbers, and special characters to create passwords that are difficult to guess and improve your password security and strength.</p>

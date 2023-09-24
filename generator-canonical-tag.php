@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="canonical" href="https://techbanda.com/tools/generator-canonica-tag">
     <style>
               .form-label {
     margin-bottom: 0.5rem;
@@ -46,6 +47,23 @@ label {
     word-wrap: break-word;
     background-color: #fff;
     border-radius: 10px;
+}
+.section-titles::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: 50px;
+}
+
+.section-titles::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: 50px;
 }
         </style>
 </head>
@@ -72,7 +90,7 @@ label {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                    <a href="./" class="nav-item nav-link active">Home</a>
+                    <a href="./" class="nav-item nav-link">Home</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tools</a>
                             <div class="dropdown-menu m-0">
@@ -136,7 +154,7 @@ label {
                 </div>
                 
                 <div class="form-outline mb-4">
-                <input type="text" class="form-control form-control-lg" name="link" placeholder="https://monesta.live" />
+                <input type="text" class="form-control form-control-lg" name="link" placeholder="https://techbanda.com" />
                  <label class="form-label" for="form3Example3">Canonical URL</label>
                 </div>
 
@@ -148,7 +166,7 @@ label {
         <div class="col-lg-6 mb-5 mb-lg-0">
            <div class="cards" >
             <?php 
-        $link = 'https://monesta.live';
+        $link = 'https://techbanda.com';
         $title= '&lt;!-- Canonical Tag Generator --&gt';
         if(isset($_POST['title']) && isset($_POST['link']))
            {
@@ -192,7 +210,15 @@ label {
 
   <!-- Jumbotron -->
 </section>
-
+<hr class="hr1">
+    <div class="container">
+            <div class="section-titles text-left">
+                 <h2 class="text-center">Canonical Tag Generator SEO Tool</h2>
+                 <h2>Canonical Tag Generator SEO Tool</h2>
+                <p>A Canonical Tag Generator SEO Tool is a tool used by website owners and digital marketers to create and add canonical tags to their website's HTML code. A canonical tag is an HTML element that tells search engines which version of a page should be considered the primary, original version. This is particularly useful when there are multiple versions of the same content on a website, as it helps to avoid duplicate content issues that can negatively impact a website's search engine ranking.</p>
+                <p>Our Canonical Tag Generator SEO Tool allows you to easily create and add canonical tags to your website's HTML code, helping you to ensure that search engines are correctly identifying the primary version of your content. This can lead to improved search engine rankings and increased visibility for your website.</p>
+            </div>
+    </div>
 <?php include('footer.php');?>
 </body>
 </html>

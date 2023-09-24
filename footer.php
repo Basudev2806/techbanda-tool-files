@@ -32,7 +32,7 @@
                         <h5 class="text-white mb-4">Get In Touch</h5>
                         <!-- <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
                         <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p> -->
-                        <p><i class="fa fa-envelope me-3"></i>info@monesta.live</p>
+                        <p><i class="fa fa-envelope me-3"></i>info@techbanda.com</p>
                         <!-- <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -51,7 +51,7 @@
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="https://monesta.live">Monesta</a>, All Right Reserved.
+                            &copy; <a class="border-bottom" href="https://techbanda.com">Techbanda</a>, All Right Reserved.
                         </div>
 <!--                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">

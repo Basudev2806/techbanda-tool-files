@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="canonical" href="https://techbanda.com/tools/textcase-convertor">
     <style>
         .ctc_share {
     justify-content: flex-end;
@@ -146,6 +147,23 @@ textarea {
     border-image: initial;
     padding: 2px;
 }
+.section-titles::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: 50px;
+}
+
+.section-titles::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: 50px;
+}
         </style>
 </head>
 
@@ -259,7 +277,7 @@ textarea {
 </section>
 <hr class="hr1">
     <div class="container">
-            <div class="section-title text-left">
+            <div class="section-titles text-left">
                  <h2 class="text-center">Upper Case to Lower Case SEO Tool</h2>
                  <h2>Upper Case to Lower Case SEO Tool</h2>
                 <p>The Upper Case to Lower Case SEO Tool is a simple yet powerful online tool that allows you to easily convert text from upper case to lower case and vice versa. It's a free and efficient way to make your writing more consistent and professional. Whether you're working on an academic paper, a blog post, or any other type of content, this case conversion tool can help you quickly change the case of your text to suit your needs.</p>
