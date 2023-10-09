@@ -378,6 +378,37 @@
                             <a class="btn px-3 mt-auto mx-auto" href="url-decoder.php">Use</a>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                            <i class="fas fa-signal fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Website Status Check</h5>
+                            <p>Use our Website Status Check Tool to instantly monitor the health and status of your website. Ensure it's running smoothly, identify downtime, and stay informed about any issues affecting your online presence.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="website-status-checker.php">Use</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                            <i class="fas fa-paint-brush fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">RGB to Hex</h5>
+                            <p>Convert RGB (Red, Green, Blue) values to hexadecimal color codes with our online RGB to Hex tool. Easily find the corresponding Hex code for any RGB color.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="rgb-to-hex.php">Use</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                            <i class="fas fa-paint-brush fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Hex to RGB</h5>
+                            <p>Convert hexadecimal color codes (Hex) to RGB color values with our Hex to RGB Tool. Easily and accurately translate Hex colors for web and graphic design projects.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="hex-to-rgb.php">Use</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
