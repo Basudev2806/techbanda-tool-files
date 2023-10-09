@@ -1,4 +1,5 @@
 <?php 
+date_default_timezone_set("Asia/Calcutta");
 if(isset($_POST) && !empty($_POST)) {
 	include('library/phpqrcode/qrlib.php'); 
 	$codesDir = "codes/";	
