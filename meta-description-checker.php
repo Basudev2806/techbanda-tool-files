@@ -618,8 +618,7 @@ label {
                  $title= $_POST['title'] . "<br>";
                  $des= $_POST['des'] . "<br>";
                 }
-            ?>
-            <?php if($link !=''|| $title !='' || $des !='' )
+            if($link !=''|| $title !='' || $des !='' )
             {?>
             <a style="color:black">
             <img src="<?php echo $image_url ?>" style="height:32px;width:32px" alt="Image description">
