@@ -408,7 +408,27 @@
                             <a class="btn px-3 mt-auto mx-auto" href="hex-to-rgb.php">Use</a>
                         </div>
                     </div>
-
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                            <i class="fas fa-pen-fancy fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Binary to Text</h5>
+                            <p>Convert binary data to text with our Binary to Text Tool. Easily decode binary strings and files to human-readable text format online.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="binary-to-text.php">Use</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                            <i class="fas fa-pen-fancy fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Text to Binary</h5>
+                            <p>Convert text to binary with our easy-to-use online tool. Encode any text or message into binary code quickly and efficiently.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="text-to-binary.php">Use</a>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
